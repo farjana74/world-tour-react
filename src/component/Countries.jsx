@@ -13,7 +13,7 @@ const Countries = () => {
         <div>
             <h2>all countries:{countries.length}</h2>
             {
-                countries.map(country=><Country country={country} />)
+                countries.map(country=><Country key ={country.cca3} country={country} />)
             }
         </div>
     );
